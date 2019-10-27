@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Prinsesstarta";
+  src: url("PrinsesstartaBoldDEMO.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Oswald Regular";
+  src: url("Oswald\ Regular.ttf") format("ttf");
+}
+body {
+  font-family: "PrinsesstartaBoldDEMO";
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}
+.global {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  padding: 28px;
+  margin: 0;
+  background-color: orange;
+}
+
+header h1 {
+  font-family: "Oswald";
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+}
+header h2 {
+  font-size: 22px;
+  margin: 0;
+}
+.heart-rate {
+  float: right;
+  height: 95px;
+}
+nav {
+  position: relative;
+  background-image: url("/img/background.jpg");
+  height: 600px;
+  margin: 0;
+}
+nav a {
+  width: 200px;
+  position: absolute;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: none;
+  color: orange;
+}
+
+nav a:hover {
+  color: white;
+}
+.create_link {
+  left: 300px;
+  top: 165px;
+}
+.browse_link {
+  left: 720px;
+  top: 170px;
+}
