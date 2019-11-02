@@ -79,8 +79,7 @@ form input[type="button"] {
   font-size: 16px;
   margin: 20px 10px 10px 0px;
 }
-<<<<<<< HEAD
-<<<<<<< head form input[type="text"] {
+<<<<<<< head <<<<<<< head form input[type="text"] {
   width: 150px;
   height: 30px;
 }
@@ -122,8 +121,7 @@ form label {
   display: inline-block;
   width: 40px;
   text-align: right;
-=======
+}
 form label {
   margin-right: 10px;
->>>>>>> efb969b215adf2db8d84a5ca4bb1930dcfb911bf
 }
