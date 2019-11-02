@@ -3,7 +3,7 @@
   src: url("PrinsesstartaBoldDEMO.ttf") format("ttf");
 }
 @font-face {
-  font-family: "Oswald Regular";
+  font-family: "Oswald";
   src: url("Oswald\ Regular.ttf") format("ttf");
 }
 body {
@@ -62,4 +62,63 @@ nav a:hover {
 .browse_link {
   left: 720px;
   top: 170px;
+}
+main {
+  color: black;
+  font-family: "Oswald";
+}
+
+main form {
+  font-family: "Oswald";
+  margin: 10px;
+}
+form input[type="button"] {
+  background-color: #e7e7e7;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 20px 10px 10px 0px;
+}
+form input[type="text"] {
+  width: 150px;
+  height: 30px;
+}
+
+form label {
+  margin-right: 20px;
+}
+.d-block {
+  width: 300px;
+  height: auto;
+}
+.carousel {
+  width: 300px;
+  height: auto;
+  margin: 50px;
+}
+
+.carousel-control-next {
+  right: -30px;
+}
+.carousel-control-prev {
+  left: -30px;
+}
+.carousel-caption {
+  position: relative;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  color: black;
+}
+.flex-container {
+  display: flex;
+}
+
+.inputs {
+  margin: 70px;
+}
+.inputs label {
+  display: inline-block;
+  width: 40px;
+  text-align: right;
 }
