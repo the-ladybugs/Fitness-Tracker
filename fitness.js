@@ -1,4 +1,5 @@
 var carousel_id = 1;
+
 function add_carousel() {
   console.log("working here");
   var carousel =
